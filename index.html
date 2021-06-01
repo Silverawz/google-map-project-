@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <p>Click on Play button...</p>
+    <audio controls id="audio">
+       <source src = "" type = "audio/mpeg">
+    </audio>
+
+
+    <h3>Google Maps With Audio Nature Sound</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+
+
+
+
+  
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
